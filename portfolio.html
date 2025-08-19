@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: rgb(43, 8, 76);
+        }
+
+        header {
+            background: rgb(43, 8, 76);
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        header h1 {
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-style: italic;
+        }
+
+        section {
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        #about img {
+            width: 160px;
+            height: 160px;
+            border-radius: 60%;
+            margin-bottom: 1rem;
+            font-weight: bold;
+        }
+
+        #skills ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        #skills ul li {
+            background: linear-gradient(blue, blueviolet, rgb(153, 16, 39));
+            color: #fff;
+            margin: 0.5rem;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .project {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .project img {
+            max-width: 100%;
+            border-radius: 20px;
+        }
+
+        #resume a {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.7rem 1.2rem;
+            background: linear-gradient(blue, blueviolet, rgb(153, 16, 39));
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        #contact p {
+            margin: 0.5rem 0;
+        }
+
+        footer {
+            text-align: center;
+            background: rgb(43, 8, 76);
+            color: #fff;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        footer a {
+            color: #0457a9;
+            /* LinkedIn blue */
+            font-weight: bolder;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Smita Mittal</h1>
+        <p>Web Developer | Designer | Programmer | Problem Solver</p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="/image/IMG_20230910_155041_194.jpg" alt="Your photo">
+        <p>Hello! I’m a passionate web developer with skills in HTML, CSS, and JavaScript. I love creating beautiful and
+            functional websites.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>C Programming</li>
+            <li>C++</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <br>
+        <div class="projects">
+            <div class="project">
+                <img src="/image/Screenshot 2025-08-18 000310.png" alt="Project 1">
+                <h3>Project One</h3>
+                <p>A Food Panda clone website built with HTML, CSS, and JavaScript featuring restaurant listings and
+                    online food ordering UI.</p>
+            </div>
+            <div class="project">
+                <img src="/image/Screenshot 2025-08-18 000547.png" alt="Project 2">
+                <h3>Project Two</h3>
+                <p>A modern school website showcasing home page, about us and contact section. Built with HTML, CSS, and
+                    JavaScript to provide a clean and user-friendly design..</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Download my resume below:</p>
+        <a href="/image/resume new.pdf" download>Download Resume</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email : smitamittal354@gmail.com</p>
+        <p>Phone number: +91- 8109689423</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Smita Mittal. All Rights Reserved.</p>
+        <p>
+            <a href="https://www.linkedin.com/in/smita-mittal-3127b8305?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank">
+                Connect on LinkedIn
+                <img src="https://img.icons8.com/?size=100&id=13930&format=png&color=000000" width="30" height="30">
+
+            </a>
+        </p>
+
+    </footer>
+</body>
+
+</html>
